@@ -1,3 +1,4 @@
+
 .row-i {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -7,6 +8,7 @@
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
 .row-i > * {
   box-sizing: border-box;
   flex-shrink: 0;
@@ -16,6 +18,7 @@
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+
 .col {
   flex: 1 0 0%;
 }
